@@ -1,6 +1,6 @@
 ## Versões
 
-<h2>v 1.00</h2>
+<h3>v 1.00</h3>
 - Aplicativo com funções de postar e comentar estilizado da minha forma, iconComment com função de focus on inputComment.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

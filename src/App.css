@@ -116,3 +116,11 @@ header {
 .app__header > Button {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important;
 }
+
+@media (max-width: 654px) {
+  #editModalResgistrar,
+  #editModalLogin {
+    width: 100% !important;
+    max-width: 240px !important;
+  }
+}

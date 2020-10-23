@@ -103,7 +103,7 @@ function App() {
         open={ open }
         onClose={ () => setOpen(false) }
       >
-        <div style={ modalStyle } className={ classes.paper }>
+        <div style={ modalStyle } id='editModalResgistrar' className={ classes.paper }>
           <form className='app__signup'>
             <center>
               <img
@@ -139,7 +139,7 @@ function App() {
         open={ openSignIn }
         onClose={ () => setOpenSignIn(false) }
       >
-        <div style={ modalStyle } className={ classes.paper }>
+        <div style={ modalStyle } id='editModalLogin' className={ classes.paper }>
           <form className='app__signup'>
             <center>
               <img

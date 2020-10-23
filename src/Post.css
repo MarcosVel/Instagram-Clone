@@ -72,7 +72,7 @@
 .post__input {
   flex: 1;
   border: none;
-  padding: 0px;
+  padding-right: 15px;
   outline-width: 0;
   color: #262626;
   background-color: transparent;

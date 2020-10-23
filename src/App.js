@@ -114,6 +114,7 @@ function App() {
             </center>
             <Input
               placeholder='username'
+              required
               type='text'
               value={ username }
               onChange={ (e) => setUsername(e.target.value) }

@@ -185,13 +185,15 @@ function App() {
         </div>
       </header>
 
-      {user?.displayName ? (
-        <ImageUpload username={ user.displayName } />
-      ) : (
-          <div className='boxNeedLogin'>
-            <h3>Registre-se e faça Login para poder postar</h3>
-          </div>
-        ) }
+      <div className='app__posts'>
+        { user?.displayName ? (
+          <ImageUpload username={ user.displayName } />
+        ) : (
+            <div className='boxNeedLogin'>
+              <h3>Registre-se e faça Login para poder postar</h3>
+            </div>
+          ) }
+      </div>
 
       <div className='app__posts'>
         <div className='app__eachPosts'>
@@ -210,7 +212,7 @@ function App() {
         </div>
       </div>
 
-      <footer className='infoFooter'>        
+      <footer className='infoFooter'>
         <p>© Desenvolvido por <a href='https://www.linkedin.com/in/marcosveloso99/' target='_blank' rel="noopener noreferrer">Marcos Veloso</a> - 2020 - versão 1.00</p>
       </footer>
 

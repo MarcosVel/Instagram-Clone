@@ -70,7 +70,8 @@ header {
 }
 
 .boxNeedLogin {
-  width: 574px;
+  width: 100%;
+  max-width: 574px;
   margin: 30px auto 24px auto;
   padding: 10px 20px;
 
@@ -83,8 +84,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 15px 0;
+  text-align: center;
+  padding: 15px 30px;
   color: #a9a9a9;
 }
 

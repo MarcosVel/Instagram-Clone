@@ -186,7 +186,7 @@ function App() {
       </header>
 
       <div className='app__posts'>
-        { user?.displayName ? (
+        { user ? (
           <ImageUpload username={ user.displayName } />
         ) : (
             <div className='boxNeedLogin'>
